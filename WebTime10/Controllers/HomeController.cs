@@ -5,7 +5,6 @@ using WebTime10.Models;
 
 namespace WebTime10.Controllers
 {
-
     public class HomeController : Controller
     {
         private readonly ILogger<HomeController> _logger;
@@ -31,4 +30,5 @@ namespace WebTime10.Controllers
             return View(new ErrorViewModel {RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier});
         }
     }
+
 }
