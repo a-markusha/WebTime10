@@ -1,8 +1,10 @@
-namespace WebTime10.Models;
-
-public class ErrorViewModel
+namespace WebTime10.Models
 {
-    public string? RequestId { get; set; }
 
-    public bool ShowRequestId => !string.IsNullOrEmpty(RequestId);
+    public class ErrorViewModel
+    {
+        public string? RequestId { get; set; }
+
+        public bool ShowRequestId => !string.IsNullOrEmpty(RequestId);
+    }
 }
